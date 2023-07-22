@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zyra/ngx-facebook.git"
+    "url": "git+https://github.com/2tcorp/ngx-facebook.git"
   },
   "keywords": [
     "facebook",
@@ -23,9 +23,9 @@
   "author": "Zyra Media Inc.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zyra/ngx-facebook/issues"
+    "url": "https://github.com/2tcorp/ngx-facebook/issues"
   },
-  "homepage": "https://github.com/zyra/ngx-facebook",
+  "homepage": "https://github.com/2tcorp/ngx-facebook",
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.8",
     "@angular-devkit/build-ng-packagr": "~0.901.8",
