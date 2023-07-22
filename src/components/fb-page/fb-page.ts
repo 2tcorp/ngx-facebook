@@ -31,7 +31,7 @@ export class FBPageComponent extends FBMLComponent {
    */
   @Input()
   @FBMLAttribute
-  width: number;
+  width: number| string;
 
   /**
    * The pixel height of the plugin. Min. is `70`.
@@ -39,7 +39,7 @@ export class FBPageComponent extends FBMLComponent {
    */
   @Input()
   @FBMLAttribute
-  height: number;
+  height: number | string;
 
   /**
    * Tabs to render i.e. `timeline`, `events`, `messages`. Use a comma-separated list to add multiple tabs, i.e. `timeline`, `events`.
@@ -55,7 +55,7 @@ export class FBPageComponent extends FBMLComponent {
    */
   @Input()
   @FBMLAttribute
-  hideCover: boolean;
+  hideCover: boolean | string;
 
   /**
    * Show profile photos when friends like this.
@@ -63,7 +63,7 @@ export class FBPageComponent extends FBMLComponent {
    */
   @Input()
   @FBMLAttribute
-  showFacepile: boolean;
+  showFacepile: boolean | string;
 
   /**
    * Hide the custom call to action button (if available).
@@ -71,7 +71,7 @@ export class FBPageComponent extends FBMLComponent {
    */
   @Input()
   @FBMLAttribute
-  hideCTA: boolean;
+  hideCTA: boolean | string;
 
   /**
    * Use the small header instead.
@@ -79,7 +79,7 @@ export class FBPageComponent extends FBMLComponent {
    */
   @Input()
   @FBMLAttribute
-  smallHeader: boolean;
+  smallHeader: boolean | string;
 
   /**
    * Try to fit inside the container width.
@@ -87,7 +87,7 @@ export class FBPageComponent extends FBMLComponent {
    */
   @Input()
   @FBMLAttribute
-  adaptContainerWidth: boolean;
+  adaptContainerWidth: boolean | string;
 
   constructor(
     el: ElementRef,
